@@ -17,6 +17,11 @@ void printGreenText(struct TextData data) {
 
 
 int main() {
-	printStringRow(integrationCalculator);
+    printGreenText(integrationCalculator);
+    printStringRow(userMenu);
+    printStringRow(interactiveMode);
+    printStringRow(parameterMode);
+    printStringRow(askFileName);
+    printStringRow(outputMenu);
 	return 0;
 }
