@@ -1,0 +1,34 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron: "0 6 * * 1-5"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Build
+        run: |
+          gcc -o main main.c im_text.c user_menu.c
+        working-directory: ${{ github.workspace }}
+
+      - name: Test
+        run: |
+          ./main
+        working-directory: ${{ github.workspace }}
+
+      - name: Cleanup
+        run: |
+          rm main
+        working-directory: ${{ github.workspace }}
