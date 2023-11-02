@@ -7,14 +7,14 @@ The goal of Homework 2 is to develop a menu-driven C program for numerical integ
 The integration calculator program is designed to provide an easy-to-use interface for users to perform numerical integration on a wide range of functions. The program is menu-driven and offers two main modes: Interactive mode and Parameter mode. Let's dive into the details of these modes and their functionality.
 
 <p align="center">
-  <img width="325" alt="Screenshot 2023-10-29 at 23 49 03" src="https://github.com/luciancj/Integration-calculator/assets/72004477/a1ad0e84-33d2-42b9-84ea-7a18f08ef250">
+  <img width="314" alt="SCR-20231102-ljaw" src="https://github.com/luciancj/Integration-calculator/assets/72004477/deaec919-6fee-4a5d-85f2-c965c55002ec">
 </p>
 
 ## Interactive Mode:
 Interactive mode is designed for users who want to interactively input functions and integration parameters. Users can choose from the following integration methods:
 
 <p align="center">
-  <img width="323" alt="Screenshot 2023-10-29 at 23 49 46" src="https://github.com/luciancj/Integration-calculator/assets/72004477/4bdac8ed-403d-41fb-ab5f-1bf433885bec">
+  <img width="314" alt="SCR-20231102-ljef" src="https://github.com/luciancj/Integration-calculator/assets/72004477/f2f49ddf-f703-4a7d-9b5f-b9bc7226498d">
 </p>
 
 Each of these integration methods can be selected by entering the corresponding command, such as "/rf" for Regula falsi. In this mode, the program will prompt the user for the function and integration parameters, and it will calculate and display the result.
@@ -23,10 +23,10 @@ Each of these integration methods can be selected by entering the corresponding 
 Parameter mode is intended for users who prefer to input multiple functions and parameters in one go. Users can choose from the same integration methods as in Interactive mode. This mode is suitable for performing integration on multiple functions sequentially.
 
 <p align="center">
-  <img width="322" alt="Screenshot 2023-10-29 at 23 49 18" src="https://github.com/luciancj/Integration-calculator/assets/72004477/ad73c631-eea5-4dba-a50a-73417a7b2622">
+    <img width="314" alt="SCR-20231102-lizi" src="https://github.com/luciancj/Integration-calculator/assets/72004477/91125f0e-9484-48d6-9276-f3583f7e8d79">
 </p>
 <p align="center">
-  <img width="323" alt="Screenshot 2023-10-29 at 23 49 32" src="https://github.com/luciancj/Integration-calculator/assets/72004477/960796ce-3b0b-4777-b3f4-d3f668657c04">
+  <img width="314" alt="SCR-20231102-lhhb" src="https://github.com/luciancj/Integration-calculator/assets/72004477/5b9850f4-3192-4c1c-af25-f805569d83c3">
 </p>
 
 
@@ -34,7 +34,7 @@ Parameter mode is intended for users who prefer to input multiple functions and 
 The program provides clear and structured output, guiding the user through the integration process. It uses a combination of text-based menus, instructions, and colorful text to enhance the user experience. For example, green text is used to highlight important information in the menus.
 
 <p align="center">
-  <img width="369" alt="Screenshot 2023-11-02 at 11 05 07" src="https://github.com/luciancj/Integration-calculator/assets/72004477/2ef6d60b-0699-48c7-846b-da9e86acaf82">
+  <img width="358" alt="SCR-20231102-libb" src="https://github.com/luciancj/Integration-calculator/assets/72004477/bac7cdba-a618-4d35-8567-a82d7e2ff6ab">
 </p>
 
 ## How to Use:
