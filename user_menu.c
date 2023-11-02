@@ -28,7 +28,7 @@ const char *parameter_mode[] = {
     "║                                      ║",
     "╚══════════════════════════════════════╝"
 };
-struct TextData parameterMode = {parameter_mode, 11};
+struct TextData parameterMode = {parameter_mode, 12};
 
 const char *interactive_mode[] = {
     "╔══════════════════════════════════════╗",
@@ -44,7 +44,7 @@ const char *interactive_mode[] = {
     "║                                      ║",
     "╚══════════════════════════════════════╝"
 };
-struct TextData interactiveMode = {interactive_mode, 11};
+struct TextData interactiveMode = {interactive_mode, 12};
 
 const char *ask_file_name[] = {
     "╔══════════════════════════════════════╗",
