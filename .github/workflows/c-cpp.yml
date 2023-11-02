@@ -20,7 +20,7 @@ jobs:
 
       - name: Build
         run: |
-          gcc -o main main.c im_text.c text_data.c user_menu.c
+          gcc -o main main.c im_text.c user_menu.c
         working-directory: ${{ github.workspace }}
 
       - name: Test
