@@ -20,7 +20,7 @@ int main() {
     printGreenText(integrationCalculator);
     printStringRow(userMenu);
     printStringRow(interactiveMode);
-    printStringRow(parameterMode);
+    printStringRow(regulaFalsi);
     printStringRow(askFileName);
     printStringRow(outputMenu);
 	return 0;

@@ -10,10 +10,10 @@ const char *integration_calculator[] = {
 struct TextData integrationCalculator = {integration_calculator, 4};
 
 const char *regula_falsi[] = {
-	"┳┓      ┓    ┏  ┓ •",
-	"┣┫┏┓┏┓┓┏┃┏┓  ╋┏┓┃┏┓",
-	"┛┗┗ ┗┫┗┻┗┗┻  ┛┗┻┗┛┗",
-	"     ┛"
+        "┳┓      ┓    ┏┓  ┓ •",
+        "┣┫┏┓┏┓┓┏┃┏┓  ┣ ┏┓┃┏┓",
+        "┛┗┗ ┗┫┗┻┗┗┻  ┻ ┗┻┗┛┗",
+        "     ┛              "
 };
 struct TextData regulaFalsi = {regula_falsi, 4};
 
@@ -46,3 +46,10 @@ const char *trapezoidal_rule[] = {
 	"       ┛"
 };
 struct TextData trapezoidalRule = {trapezoidal_rule, 4};
+
+const char *secant_method[] = {
+        "┏┓          ┳┳┓   ┓    ┓",
+        "┗┓┏┓┏┏┓┏┓╋  ┃┃┃┏┓╋┣┓┏┓┏┫",
+        "┗┛┗ ┗┗┻┛┗┗  ┛ ┗┗ ┗┛┗┗┛┗┻"
+};
+struct TextData secantMethod = {secant_method, 3};
