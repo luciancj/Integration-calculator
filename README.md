@@ -25,6 +25,10 @@ Parameter mode is intended for users who prefer to input multiple functions and 
 <p align="center">
   <img width="322" alt="Screenshot 2023-10-29 at 23 49 18" src="https://github.com/luciancj/Integration-calculator/assets/72004477/ad73c631-eea5-4dba-a50a-73417a7b2622">
 </p>
+<p align="center">
+  <img width="323" alt="Screenshot 2023-10-29 at 23 49 32" src="https://github.com/luciancj/Integration-calculator/assets/72004477/960796ce-3b0b-4777-b3f4-d3f668657c04">
+</p>
+
 
 ## Program Output:
 The program provides clear and structured output, guiding the user through the integration process. It uses a combination of text-based menus, instructions, and colorful text to enhance the user experience. For example, green text is used to highlight important information in the menus.
