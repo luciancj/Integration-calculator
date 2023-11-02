@@ -1,4 +1,4 @@
-# Integration-calculator
+# Integration calculator
 
 ## Objective:
 The goal of Homework 2 is to develop a menu-driven C program for numerical integration of user-defined functions. This program is designed to handle various types of functions, including polynomials, common mathematical functions (such as sine, logarithm, and exponential), and arbitrary combinations of these functions.
@@ -6,22 +6,32 @@ The goal of Homework 2 is to develop a menu-driven C program for numerical integ
 ## Program Description:
 The integration calculator program is designed to provide an easy-to-use interface for users to perform numerical integration on a wide range of functions. The program is menu-driven and offers two main modes: Interactive mode and Parameter mode. Let's dive into the details of these modes and their functionality.
 
+<p align="center">
+  <img width="325" alt="Screenshot 2023-10-29 at 23 49 03" src="https://github.com/luciancj/Integration-calculator/assets/72004477/a1ad0e84-33d2-42b9-84ea-7a18f08ef250">
+</p>
+
 ## Interactive Mode:
 Interactive mode is designed for users who want to interactively input functions and integration parameters. Users can choose from the following integration methods:
 
-- Regula falsi
-- The Right Riemann Sum
-- The Left Riemann Sum
-- The Midpoint Riemann Sum
-- Trapezoidal Rule
+<p align="center">
+  <img width="323" alt="Screenshot 2023-10-29 at 23 49 46" src="https://github.com/luciancj/Integration-calculator/assets/72004477/4bdac8ed-403d-41fb-ab5f-1bf433885bec">
+</p>
 
 Each of these integration methods can be selected by entering the corresponding command, such as "/rf" for Regula falsi. In this mode, the program will prompt the user for the function and integration parameters, and it will calculate and display the result.
 
 ## Parameter Mode:
 Parameter mode is intended for users who prefer to input multiple functions and parameters in one go. Users can choose from the same integration methods as in Interactive mode. This mode is suitable for performing integration on multiple functions sequentially.
 
+<p align="center">
+  <img width="322" alt="Screenshot 2023-10-29 at 23 49 18" src="https://github.com/luciancj/Integration-calculator/assets/72004477/ad73c631-eea5-4dba-a50a-73417a7b2622">
+</p>
+
 ## Program Output:
 The program provides clear and structured output, guiding the user through the integration process. It uses a combination of text-based menus, instructions, and colorful text to enhance the user experience. For example, green text is used to highlight important information in the menus.
+
+<p align="center">
+  <img width="375" alt="Screenshot 2023-10-29 at 23 50 06" src="https://github.com/luciancj/Integration-calculator/assets/72004477/6ef7312b-86d5-4cb4-a01f-39a624636f22">
+</p>
 
 ## How to Use:
 
