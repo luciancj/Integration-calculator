@@ -1,26 +1,19 @@
 name: C/C++ CI
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "0 */2 * * *"
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-
+    runs-on: self-hosted
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
       - name: Build
         run: |
-          gcc -o main main.c im_text.c user_menu.c
+          gcc -o main main.c im_text.c user_menu.c menu_choice.c
         working-directory: ${{ github.workspace }}
 
       - name: Test
