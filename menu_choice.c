@@ -12,7 +12,7 @@ void printStringRow(struct TextData data) {
     }
 }
 
-void mainMenu() {
+void welcomeMenu() {
     printStringRow(integrationCalculator);
     char choice = '\0';
     int c;

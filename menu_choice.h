@@ -1,7 +1,7 @@
 #ifndef MENU_CHOICE_H
 #define MENU_CHOICE_H
 
-void mainMenu();
+void welcomeMenu();
 
 void handleInteractiveMenu();
 
