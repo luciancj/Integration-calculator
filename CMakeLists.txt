@@ -11,4 +11,4 @@ add_executable(Integration_calculator
         main.c
         text_data.h
         user_menu.c
-        user_menu.h)
+        user_menu.h menu_choice.c menu_choice.h menu_choice.h)

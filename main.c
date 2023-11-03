@@ -2,12 +2,8 @@
 #include "user_menu.h"
 #include "im_text.h"
 #include "text_data.h"
-
-void printStringRow(struct TextData data) {
-	for (int i = 0; i < data.numRows; i++) {
-		printf("%s\n", data.text[i]);
-	}
-}
+#include "stdlib.h"
+#include "menu_choice.h"
 
 void printGreenText(struct TextData data) {
 	for (int i = 0; i < data.numRows; i++) {
@@ -17,11 +13,6 @@ void printGreenText(struct TextData data) {
 
 
 int main() {
-    printGreenText(integrationCalculator);
-    printStringRow(userMenu);
-    printStringRow(interactiveMode);
-    printStringRow(regulaFalsi);
-    printStringRow(askFileName);
-    printStringRow(outputMenu);
-	return 0;
+    mainMenu();
+    return 0;
 }

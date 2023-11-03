@@ -23,7 +23,7 @@ const char *parameter_mode[] = {
     "║   \x1b[32m/rr - The Right Riemann Sum\x1b[0m        ║",
     "║   \x1b[32m/lr - The Left Riemann Sum\x1b[0m         ║",
     "║   \x1b[32m/mr - The Midpoint Riemann Sum\x1b[0m     ║",
-    "║   \x1b[32m/tr - Trapezoidal\x1b[0m                  ║",
+    "║   \x1b[32m/tr - Trapezoidal Rule\x1b[0m             ║",
     "║   \x1b[32m/sm - Secant Method.\x1b[0m               ║",
     "║                                      ║",
     "╚══════════════════════════════════════╝"
@@ -39,7 +39,7 @@ const char *interactive_mode[] = {
     "║   \x1b[32m/rr - The Right Riemann Sum\x1b[0m        ║",
     "║   \x1b[32m/lr - The Left Riemann Sum\x1b[0m         ║",
     "║   \x1b[32m/mr - The Midpoint Riemann Sum\x1b[0m     ║",
-    "║   \x1b[32m/tr - Trapezoidal\x1b[0m                  ║",
+    "║   \x1b[32m/tr - Trapezoidal Rule\x1b[0m             ║",
     "║   \x1b[32m/sm - Secant Method.\x1b[0m               ║",
     "║                                      ║",
     "╚══════════════════════════════════════╝"
