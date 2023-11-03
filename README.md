@@ -17,7 +17,7 @@ Interactive mode is designed for users who want to interactively input functions
 
 <p align="center">
   <img width="314" alt="SCR-20231102-ljef" src="https://github.com/luciancj/Integration-calculator/assets/72004477/f2f49ddf-f703-4a7d-9b5f-b9bc7226498d">
-</p>
+</p> 
 
 Each of these integration methods can be selected by entering the corresponding command, such as "/rf" for Regula falsi. In this mode, the program will prompt the user for the function and integration parameters, and it will calculate and display the result.
 
