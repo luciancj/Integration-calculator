@@ -1,7 +1,7 @@
 # Integration calculator
 
 ## Objective:
-The goal of the <span style="color: green">Integration Calculator</span> is to develop a menu-driven C program for numerical integration of user-defined functions. This program is designed to handle various types of functions, including polynomials, common mathematical functions (such as sine, logarithm, and exponential), and arbitrary combinations of these functions.
+The goal of the Integration Calculator is to develop a menu-driven C program for numerical integration of user-defined functions. This program is designed to handle various types of functions, including polynomials, common mathematical functions (such as sine, logarithm, and exponential), and arbitrary combinations of these functions.
 
 ## Program Description:
 The integration calculator program is designed to provide an easy-to-use interface for users to perform numerical integration on a wide range of functions. The program is menu-driven and offers two main modes: Interactive mode and Parameter mode. Let's dive into the details of these modes and their functionality.
@@ -10,14 +10,14 @@ The integration calculator program is designed to provide an easy-to-use interfa
   <img width="314" alt="SCR-20231102-ljaw" src="https://github.com/luciancj/Integration-calculator/assets/72004477/deaec919-6fee-4a5d-85f2-c965c55002ec">
 </p>
 
-**Note:** The input functions are expected to be in <span style="color: green">**Reverse Polish Notation**</span> (RPN).
+**Note:** The input functions are expected to be in **Reverse Polish Notation** (RPN).
 
 ## Interactive Mode:
 Interactive mode is designed for users who want to interactively input functions and integration parameters. Users can choose from the following integration methods:
 
 <p align="center">
   <img width="314" alt="SCR-20231102-ljef" src="https://github.com/luciancj/Integration-calculator/assets/72004477/f2f49ddf-f703-4a7d-9b5f-b9bc7226498d">
-</p> 
+</p>
 
 Each of these integration methods can be selected by entering the corresponding command, such as "/rf" for Regula falsi. In this mode, the program will prompt the user for the function and integration parameters, and it will calculate and display the result.
 
