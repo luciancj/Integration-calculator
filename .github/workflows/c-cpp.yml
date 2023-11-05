@@ -1,8 +1,10 @@
 name: C/C++ CI
 
 on:
-  schedule:
-    - cron: "0 */2 * * *"
+  push:
+    branches:
+    - main
+    - release/*
 
 jobs:
   build:
