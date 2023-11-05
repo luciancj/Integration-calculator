@@ -1,9 +1,9 @@
 #include "stdio.h"
 #include "stdlib.h"
-#include "menu_choice.h"
-#include "user_menu.h"
-#include "text_data.h"
-#include "im_text.h"
+#include "include/menu_choice.h"
+#include "include/user_menu.h"
+#include "include/text_data.h"
+#include "include/im_text.h"
 #include "string.h"
 
 void printStringRow(struct TextData data) {

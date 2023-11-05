@@ -49,12 +49,12 @@ cmake_ninja_workdir = /Users/luciancojocaru/CLionProjects/Integration-calculator
 
 build cmake_object_order_depends_target_Integration_calculator: phony || CMakeFiles/Integration_calculator.dir
 
-build CMakeFiles/Integration_calculator.dir/im_text.c.o: C_COMPILER__Integration_calculator_Debug /Users/luciancojocaru/CLionProjects/Integration-calculator/im_text.c || cmake_object_order_depends_target_Integration_calculator
-  DEP_FILE = CMakeFiles/Integration_calculator.dir/im_text.c.o.d
+build CMakeFiles/Integration_calculator.dir/src/im_text.c.o: C_COMPILER__Integration_calculator_Debug /Users/luciancojocaru/CLionProjects/Integration-calculator/src/im_text.c || cmake_object_order_depends_target_Integration_calculator
+  DEP_FILE = CMakeFiles/Integration_calculator.dir/src/im_text.c.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu11
   INCLUDES = -I/Users/luciancojocaru/CLionProjects/Integration-calculator/.
   OBJECT_DIR = CMakeFiles/Integration_calculator.dir
-  OBJECT_FILE_DIR = CMakeFiles/Integration_calculator.dir
+  OBJECT_FILE_DIR = CMakeFiles/Integration_calculator.dir/src
 
 build CMakeFiles/Integration_calculator.dir/main.c.o: C_COMPILER__Integration_calculator_Debug /Users/luciancojocaru/CLionProjects/Integration-calculator/main.c || cmake_object_order_depends_target_Integration_calculator
   DEP_FILE = CMakeFiles/Integration_calculator.dir/main.c.o.d
@@ -63,26 +63,26 @@ build CMakeFiles/Integration_calculator.dir/main.c.o: C_COMPILER__Integration_ca
   OBJECT_DIR = CMakeFiles/Integration_calculator.dir
   OBJECT_FILE_DIR = CMakeFiles/Integration_calculator.dir
 
-build CMakeFiles/Integration_calculator.dir/user_menu.c.o: C_COMPILER__Integration_calculator_Debug /Users/luciancojocaru/CLionProjects/Integration-calculator/user_menu.c || cmake_object_order_depends_target_Integration_calculator
-  DEP_FILE = CMakeFiles/Integration_calculator.dir/user_menu.c.o.d
+build CMakeFiles/Integration_calculator.dir/src/user_menu.c.o: C_COMPILER__Integration_calculator_Debug /Users/luciancojocaru/CLionProjects/Integration-calculator/src/user_menu.c || cmake_object_order_depends_target_Integration_calculator
+  DEP_FILE = CMakeFiles/Integration_calculator.dir/src/user_menu.c.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu11
   INCLUDES = -I/Users/luciancojocaru/CLionProjects/Integration-calculator/.
   OBJECT_DIR = CMakeFiles/Integration_calculator.dir
-  OBJECT_FILE_DIR = CMakeFiles/Integration_calculator.dir
+  OBJECT_FILE_DIR = CMakeFiles/Integration_calculator.dir/src
 
-build CMakeFiles/Integration_calculator.dir/menu_choice.c.o: C_COMPILER__Integration_calculator_Debug /Users/luciancojocaru/CLionProjects/Integration-calculator/menu_choice.c || cmake_object_order_depends_target_Integration_calculator
-  DEP_FILE = CMakeFiles/Integration_calculator.dir/menu_choice.c.o.d
+build CMakeFiles/Integration_calculator.dir/src/menu_choice.c.o: C_COMPILER__Integration_calculator_Debug /Users/luciancojocaru/CLionProjects/Integration-calculator/src/menu_choice.c || cmake_object_order_depends_target_Integration_calculator
+  DEP_FILE = CMakeFiles/Integration_calculator.dir/src/menu_choice.c.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu11
   INCLUDES = -I/Users/luciancojocaru/CLionProjects/Integration-calculator/.
   OBJECT_DIR = CMakeFiles/Integration_calculator.dir
-  OBJECT_FILE_DIR = CMakeFiles/Integration_calculator.dir
+  OBJECT_FILE_DIR = CMakeFiles/Integration_calculator.dir/src
 
-build CMakeFiles/Integration_calculator.dir/test_rpn.c.o: C_COMPILER__Integration_calculator_Debug /Users/luciancojocaru/CLionProjects/Integration-calculator/test_rpn.c || cmake_object_order_depends_target_Integration_calculator
-  DEP_FILE = CMakeFiles/Integration_calculator.dir/test_rpn.c.o.d
+build CMakeFiles/Integration_calculator.dir/src/test_rpn.c.o: C_COMPILER__Integration_calculator_Debug /Users/luciancojocaru/CLionProjects/Integration-calculator/src/test_rpn.c || cmake_object_order_depends_target_Integration_calculator
+  DEP_FILE = CMakeFiles/Integration_calculator.dir/src/test_rpn.c.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu11
   INCLUDES = -I/Users/luciancojocaru/CLionProjects/Integration-calculator/.
   OBJECT_DIR = CMakeFiles/Integration_calculator.dir
-  OBJECT_FILE_DIR = CMakeFiles/Integration_calculator.dir
+  OBJECT_FILE_DIR = CMakeFiles/Integration_calculator.dir/src
 
 
 # =============================================================================
@@ -92,7 +92,7 @@ build CMakeFiles/Integration_calculator.dir/test_rpn.c.o: C_COMPILER__Integratio
 #############################################
 # Link the executable Integration_calculator
 
-build Integration_calculator: C_EXECUTABLE_LINKER__Integration_calculator_Debug CMakeFiles/Integration_calculator.dir/im_text.c.o CMakeFiles/Integration_calculator.dir/main.c.o CMakeFiles/Integration_calculator.dir/user_menu.c.o CMakeFiles/Integration_calculator.dir/menu_choice.c.o CMakeFiles/Integration_calculator.dir/test_rpn.c.o
+build Integration_calculator: C_EXECUTABLE_LINKER__Integration_calculator_Debug CMakeFiles/Integration_calculator.dir/src/im_text.c.o CMakeFiles/Integration_calculator.dir/main.c.o CMakeFiles/Integration_calculator.dir/src/user_menu.c.o CMakeFiles/Integration_calculator.dir/src/menu_choice.c.o CMakeFiles/Integration_calculator.dir/src/test_rpn.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
   OBJECT_DIR = CMakeFiles/Integration_calculator.dir
   POST_BUILD = :

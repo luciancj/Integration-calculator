@@ -6,9 +6,9 @@ set(CMAKE_C_STANDARD 11)
 include_directories(.)
 
 add_executable(Integration_calculator
-        im_text.c
-        im_text.h
+        src/im_text.c
+        include/im_text.h
         main.c
-        text_data.h
-        user_menu.c
-        user_menu.h menu_choice.c menu_choice.h menu_choice.h test_rpn.c test_rpn.c test_rpn.h test_rpn.h)
+        include/text_data.h
+        src/user_menu.c
+        include/user_menu.h src/menu_choice.c include/menu_choice.h include/menu_choice.h src/test_rpn.c src/test_rpn.c include/test_rpn.h include/test_rpn.h)

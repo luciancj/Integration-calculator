@@ -1,5 +1,5 @@
-#include "im_text.h"
-#include "text_data.h"
+#include "include/im_text.h"
+#include "include/text_data.h"
 
 const char *integration_calculator[] = {
 	"\x1B[32m┳            •      ┏┓  ┓   ┓\x1B[0m",

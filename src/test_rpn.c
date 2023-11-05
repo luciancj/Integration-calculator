@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-#include "test_rpn.h"
+#include "include/test_rpn.h"
 
 #define STACK_SIZE 100
 

@@ -1,7 +1,7 @@
 #include "stdio.h"
-#include "menu_choice.h"
-#include "test_rpn.h"
-#include <string.h>
+#include "include/menu_choice.h"
+#include "include/test_rpn.h"
+#include "string.h"
 
 
 int main() {
