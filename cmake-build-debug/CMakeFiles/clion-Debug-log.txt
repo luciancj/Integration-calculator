@@ -1,4 +1,4 @@
-/Users/luciancojocaru/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/luciancojocaru/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/luciancojocaru/CLionProjects/Integration-calculator -B /Users/luciancojocaru/CLionProjects/Integration-calculator/cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/luciancojocaru/CLionProjects/Integration-calculator/cmake-build-debug
+"/Users/luciancojocaru/Applications/CLion Nova.app/Contents/bin/cmake/mac/x64/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/luciancojocaru/Applications/CLion Nova.app/Contents/bin/ninja/mac/x64/ninja" -G Ninja -S "/Users/luciancojocaru/Library/Mobile Documents/com~apple~CloudDocs/CLionProjects/Integration-calculator" -B "/Users/luciancojocaru/Library/Mobile Documents/com~apple~CloudDocs/CLionProjects/Integration-calculator/cmake-build-debug"
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/luciancojocaru/Library/Mobile Documents/com~apple~CloudDocs/CLionProjects/Integration-calculator/cmake-build-debug

@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/luciancojocaru/CLionProjects/Integration-calculator/cmake-build-debug"
+			"value" : "/Users/luciancojocaru/Library/Mobile Documents/com~apple~CloudDocs/CLionProjects/Integration-calculator/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "25"
+			"value" : "27"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "2"
+			"value" : "0"
 		},
 		{
 			"name" : "CMAKE_COLOR_DIAGNOSTICS",
@@ -115,7 +115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/luciancojocaru/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+			"value" : "/Users/luciancojocaru/Applications/CLion Nova.app/Contents/bin/cmake/mac/x64/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -127,7 +127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/luciancojocaru/Applications/CLion.app/Contents/bin/cmake/mac/bin/cpack"
+			"value" : "/Users/luciancojocaru/Applications/CLion Nova.app/Contents/bin/cmake/mac/x64/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -139,7 +139,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/luciancojocaru/Applications/CLion.app/Contents/bin/cmake/mac/bin/ctest"
+			"value" : "/Users/luciancojocaru/Applications/CLion Nova.app/Contents/bin/cmake/mac/x64/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER",
@@ -383,7 +383,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/luciancojocaru/CLionProjects/Integration-calculator/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/luciancojocaru/Library/Mobile Documents/com~apple~CloudDocs/CLionProjects/Integration-calculator/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -443,7 +443,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/luciancojocaru/CLionProjects/Integration-calculator"
+			"value" : "/Users/luciancojocaru/Library/Mobile Documents/com~apple~CloudDocs/CLionProjects/Integration-calculator"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -495,11 +495,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "make program"
 				}
 			],
-			"type" : "UNINITIALIZED",
-			"value" : "/Users/luciancojocaru/Applications/CLion.app/Contents/bin/ninja/mac/ninja"
+			"type" : "FILEPATH",
+			"value" : "/Users/luciancojocaru/Applications/CLion Nova.app/Contents/bin/ninja/mac/x64/ninja"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -767,7 +767,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/luciancojocaru/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25"
+			"value" : "/Users/luciancojocaru/Applications/CLion Nova.app/Contents/bin/cmake/mac/x64/share/cmake-3.27"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -978,6 +978,22 @@
 			"value" : "/Library/Developer/CommandLineTools/usr/bin/strip"
 		},
 		{
+			"name" : "CMAKE_TAPI",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/Library/Developer/CommandLineTools/usr/bin/tapi"
+		},
+		{
 			"name" : "CMAKE_UNAME",
 			"properties" : 
 			[
@@ -1015,7 +1031,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/luciancojocaru/CLionProjects/Integration-calculator/cmake-build-debug"
+			"value" : "/Users/luciancojocaru/Library/Mobile Documents/com~apple~CloudDocs/CLionProjects/Integration-calculator/cmake-build-debug"
 		},
 		{
 			"name" : "Integration_calculator_IS_TOP_LEVEL",
@@ -1039,7 +1055,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/luciancojocaru/CLionProjects/Integration-calculator"
+			"value" : "/Users/luciancojocaru/Library/Mobile Documents/com~apple~CloudDocs/CLionProjects/Integration-calculator"
 		}
 	],
 	"kind" : "cache",
