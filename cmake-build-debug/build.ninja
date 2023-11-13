@@ -47,7 +47,7 @@ cmake_ninja_workdir = /Users/luciancojocaru/Library/Mobile$ Documents/com~apple~
 #############################################
 # Order-only phony target for Integration_calculator
 
-build cmake_object_order_depends_target_Integration_calculator: phony || CMakeFiles/Integration_calculator.dir
+build cmake_object_order_depends_target_Integration_calculator: phony || cmake_object_order_depends_target_Integration_calculator_lib
 
 build CMakeFiles/Integration_calculator.dir/main.c.o: C_COMPILER__Integration_calculator_unscanned_Debug /Users/luciancojocaru/Library/Mobile$ Documents/com~apple~CloudDocs/CLionProjects/Integration-calculator/main.c || cmake_object_order_depends_target_Integration_calculator
   DEP_FILE = CMakeFiles/Integration_calculator.dir/main.c.o.d
@@ -92,13 +92,68 @@ build CMakeFiles/Integration_calculator.dir/src/user_menu.c.o: C_COMPILER__Integ
 #############################################
 # Link the executable Integration_calculator
 
-build Integration_calculator: C_EXECUTABLE_LINKER__Integration_calculator_Debug CMakeFiles/Integration_calculator.dir/main.c.o CMakeFiles/Integration_calculator.dir/src/im_text.c.o CMakeFiles/Integration_calculator.dir/src/menu_choice.c.o CMakeFiles/Integration_calculator.dir/src/test_rpn.c.o CMakeFiles/Integration_calculator.dir/src/user_menu.c.o
+build Integration_calculator: C_EXECUTABLE_LINKER__Integration_calculator_Debug CMakeFiles/Integration_calculator.dir/main.c.o CMakeFiles/Integration_calculator.dir/src/im_text.c.o CMakeFiles/Integration_calculator.dir/src/menu_choice.c.o CMakeFiles/Integration_calculator.dir/src/test_rpn.c.o CMakeFiles/Integration_calculator.dir/src/user_menu.c.o | libIntegration_calculator_lib.a || libIntegration_calculator_lib.a
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  LINK_LIBRARIES = libIntegration_calculator_lib.a
   OBJECT_DIR = CMakeFiles/Integration_calculator.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = Integration_calculator
   TARGET_PDB = Integration_calculator.dbg
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target Integration_calculator_lib
+
+
+#############################################
+# Order-only phony target for Integration_calculator_lib
+
+build cmake_object_order_depends_target_Integration_calculator_lib: phony || CMakeFiles/Integration_calculator_lib.dir
+
+build CMakeFiles/Integration_calculator_lib.dir/src/im_text.c.o: C_COMPILER__Integration_calculator_lib_unscanned_Debug /Users/luciancojocaru/Library/Mobile$ Documents/com~apple~CloudDocs/CLionProjects/Integration-calculator/src/im_text.c || cmake_object_order_depends_target_Integration_calculator_lib
+  DEP_FILE = CMakeFiles/Integration_calculator_lib.dir/src/im_text.c.o.d
+  FLAGS = -g -std=gnu11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  INCLUDES = -I"/Users/luciancojocaru/Library/Mobile Documents/com~apple~CloudDocs/CLionProjects/Integration-calculator/."
+  OBJECT_DIR = CMakeFiles/Integration_calculator_lib.dir
+  OBJECT_FILE_DIR = CMakeFiles/Integration_calculator_lib.dir/src
+
+build CMakeFiles/Integration_calculator_lib.dir/src/menu_choice.c.o: C_COMPILER__Integration_calculator_lib_unscanned_Debug /Users/luciancojocaru/Library/Mobile$ Documents/com~apple~CloudDocs/CLionProjects/Integration-calculator/src/menu_choice.c || cmake_object_order_depends_target_Integration_calculator_lib
+  DEP_FILE = CMakeFiles/Integration_calculator_lib.dir/src/menu_choice.c.o.d
+  FLAGS = -g -std=gnu11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  INCLUDES = -I"/Users/luciancojocaru/Library/Mobile Documents/com~apple~CloudDocs/CLionProjects/Integration-calculator/."
+  OBJECT_DIR = CMakeFiles/Integration_calculator_lib.dir
+  OBJECT_FILE_DIR = CMakeFiles/Integration_calculator_lib.dir/src
+
+build CMakeFiles/Integration_calculator_lib.dir/src/test_rpn.c.o: C_COMPILER__Integration_calculator_lib_unscanned_Debug /Users/luciancojocaru/Library/Mobile$ Documents/com~apple~CloudDocs/CLionProjects/Integration-calculator/src/test_rpn.c || cmake_object_order_depends_target_Integration_calculator_lib
+  DEP_FILE = CMakeFiles/Integration_calculator_lib.dir/src/test_rpn.c.o.d
+  FLAGS = -g -std=gnu11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  INCLUDES = -I"/Users/luciancojocaru/Library/Mobile Documents/com~apple~CloudDocs/CLionProjects/Integration-calculator/."
+  OBJECT_DIR = CMakeFiles/Integration_calculator_lib.dir
+  OBJECT_FILE_DIR = CMakeFiles/Integration_calculator_lib.dir/src
+
+build CMakeFiles/Integration_calculator_lib.dir/src/user_menu.c.o: C_COMPILER__Integration_calculator_lib_unscanned_Debug /Users/luciancojocaru/Library/Mobile$ Documents/com~apple~CloudDocs/CLionProjects/Integration-calculator/src/user_menu.c || cmake_object_order_depends_target_Integration_calculator_lib
+  DEP_FILE = CMakeFiles/Integration_calculator_lib.dir/src/user_menu.c.o.d
+  FLAGS = -g -std=gnu11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  INCLUDES = -I"/Users/luciancojocaru/Library/Mobile Documents/com~apple~CloudDocs/CLionProjects/Integration-calculator/."
+  OBJECT_DIR = CMakeFiles/Integration_calculator_lib.dir
+  OBJECT_FILE_DIR = CMakeFiles/Integration_calculator_lib.dir/src
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target Integration_calculator_lib
+
+
+#############################################
+# Link the static library libIntegration_calculator_lib.a
+
+build libIntegration_calculator_lib.a: C_STATIC_LIBRARY_LINKER__Integration_calculator_lib_Debug CMakeFiles/Integration_calculator_lib.dir/src/im_text.c.o CMakeFiles/Integration_calculator_lib.dir/src/menu_choice.c.o CMakeFiles/Integration_calculator_lib.dir/src/test_rpn.c.o CMakeFiles/Integration_calculator_lib.dir/src/user_menu.c.o
+  ARCH_FLAGS = -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles/Integration_calculator_lib.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = libIntegration_calculator_lib.a
+  TARGET_PDB = Integration_calculator_lib.a.dbg
 
 
 #############################################
@@ -126,6 +181,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build Integration_calculator_lib: phony libIntegration_calculator_lib.a
+
 # =============================================================================
 # Folder targets.
 
@@ -134,7 +191,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/luciancojocaru/Library/Mobile Documents/com~apple~CloudDocs/CLionProjects/Integration-calculator/cmake-build-debug
 
-build all: phony Integration_calculator
+build all: phony Integration_calculator libIntegration_calculator_lib.a
 
 # =============================================================================
 # Built-in targets
