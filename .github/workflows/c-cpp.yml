@@ -2,28 +2,22 @@ name: C/C++ CI
 
 on:
   push:
-    branches:
-    - main
-    - release/*
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
   build:
-    runs-on: self-hosted
+
+    runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Build
-        run: |
-          gcc -o main main.c im_text.c user_menu.c menu_choice.c
-        working-directory: ${{ github.workspace }}
-
-      - name: Test
-        run: |
-          ./main
-        working-directory: ${{ github.workspace }}
-
-      - name: Cleanup
-        run: |
-          rm main
-        working-directory: ${{ github.workspace }}
+    - uses: actions/checkout@v3
+    - name: configure
+      run: ./configure
+    - name: make
+      run: make
+    - name: make check
+      run: make check
+    - name: make distcheck
+      run: make distcheck
