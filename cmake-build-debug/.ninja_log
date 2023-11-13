@@ -3,6 +3,6 @@
 1331	1672	1699564373035655704	CMakeFiles/Integration_calculator.dir/src/test_rpn.c.o	850dd7d2063ffbf5
 4	774	1699564909045790235	CMakeFiles/Integration_calculator.dir/main.c.o	c03b08b116adea10
 1009	1195	1699565443252312338	Integration_calculator	9d345a70ac15d33e
-9	574	1699869911678028497	build.ninja	e121b6ae8d3b71a6
+9	574	1699870244975527742	build.ninja	e121b6ae8d3b71a6
 14	1331	1699564372663408442	CMakeFiles/Integration_calculator.dir/src/user_menu.c.o	b728738e5c96282c
 4	1005	1699565443048148016	CMakeFiles/Integration_calculator.dir/src/menu_choice.c.o	b995a8cee34f127f

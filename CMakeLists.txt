@@ -1,15 +1,26 @@
-CFLAGS = -Wall -Wextra -std=c11
+cmake_minimum_required(VERSION 3.25)
+project(Integration_calculator C)
 
-all: Integration_calculator
+set(CMAKE_C_STANDARD 11)
 
-Integration_calculator: main.c src/im_text.c src/menu_choice.c src/test_rpn.c src/user_menu.c
-$(CC) $(CFLAGS) -o Integration_calculator main.c src/im_text.c src/menu_choice.c src/test_rpn.c src/user_menu.c
+include_directories(.)
 
-test: Integration_calculator
-# Add commands to run tests here
-./Integration_calculator
+add_executable(Integration_calculator
+        main.c
+        src/im_text.c
+        src/menu_choice.c
+        src/test_rpn.c
+        src/user_menu.c)
 
-clean:
-rm -f Integration_calculator
+add_library(Integration_calculator_lib
+        src/im_text.c
+        src/menu_choice.c
+        src/test_rpn.c
+        src/user_menu.c
+        include/im_text.h
+        include/menu_choice.h
+        include/test_rpn.h
+        include/text_data.h
+        include/user_menu.h)
 
-.PHONY: all test clean
+target_link_libraries(Integration_calculator Integration_calculator_lib)
